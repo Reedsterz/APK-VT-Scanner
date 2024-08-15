@@ -228,8 +228,7 @@ def response_to_excel(parsed_responses, output_file, permission_file):
     # Write DataFrames to Excel files
     df.to_excel(output_file, index=False)
     df2.to_excel(permission_file, index=False)
-
-######################################SCRIPT######################################
+    
 def main():
     
     parser = argparse.ArgumentParser(description="scan your files with virustotal")
